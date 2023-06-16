@@ -1,0 +1,65 @@
+{
+  "name": "biziboxotp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "",
+    "postinstall11": "cat config/build.gradle > node_modules/@eabdullazyanov/react-native-sms-user-consent/android/build.gradle && cat config/ReactNativeSmsUserConsentModule.java > node_modules/@eabdullazyanov/react-native-sms-user-consent/android/src/main/java/com/akvelon/reactnativesmsuserconsent/ReactNativeSmsUserConsentModule.java",
+    "start": "react-native start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android --variant=devDebug --appIdSuffix=dev",
+    "android_Prod": "react-native run-android --variant=prodDebug",
+    "android_Local": "react-native run-android --variant=localDebug --appIdSuffix=localOffice",
+    "create:android:apk:dev": "cd android/ && ./gradlew assembleDevRelease && cd ..",
+    "create:android:apk:local": "cd android/ && ./gradlew assembleLocalRelease && cd ..",
+    "create:android:apk:prod": "cd android/ && ./gradlew assembleProdRelease && cd ..",
+    "create:android:bundle:dev": "cd android/ && ./gradlew bundleDevRelease && cd ..",
+    "create:android:bundle:local": "cd android/ && ./gradlew bundleLocalRelease && cd ..",
+    "create:android:bundle:prod": "cd android/ && ./gradlew bundleProdRelease && cd ..",
+    "podinstall": "npx pod-install",
+    "clean": "react-native-clean-project",
+    "clean-droid-build": "cd android && ./gradlew app:clean && cd ..",
+    "reinstall-pods": "cd ios && rm -rf Pods/ Podfile.lock && pod install --repo-update && cd ..",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix -c .eslintrc './src/**/*.js'"
+  },
+  "dependencies": {
+    "@eabdullazyanov/react-native-sms-user-consent": "^1.0.11",
+    "@react-native-async-storage/async-storage": "1.18.1",
+    "@react-native-firebase/app": "17.4.2",
+    "@react-native-firebase/messaging": "17.4.2",
+    "jwt-decode": "^3.1.2",
+    "react": "18.2.0",
+    "react-native": "0.71.7",
+    "react-native-check-version": "1.1.1",
+    "react-native-device-info": "10.6.0",
+    "react-native-global-font": "^1.0.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-splash-screen": "3.3.0",
+    "react-native-svg": "13.9.0",
+    "react-native-svg-charts": "5.4.0",
+    "react-native-vector-icons": "9.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "babel-jest": "^29.2.1",
+    "eslint": "^8.19.0",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "0.73.9",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "18.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/",
+      "./assets/fontello/font/"
+    ]
+  }
+}

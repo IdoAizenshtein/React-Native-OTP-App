@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "1035867835297",
+    "project_id": "bizibox-otp",
+    "storage_bucket": "bizibox-otp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035867835297:android:b3a093b73c5ebc6f42d9e0",
+        "android_client_info": {
+          "package_name": "com.biziboxotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035867835297-suqk48m4fc37cs9mkfhpkocolur8gnkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqpFRdSjOnECeud4kcG97DKqT_VVYlgAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035867835297-suqk48m4fc37cs9mkfhpkocolur8gnkn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035867835297-ioac46473r6mqt6v6hb9211dtsaclsck.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bizibox.otp.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035867835297:android:a4c598c010740ffb42d9e0",
+        "android_client_info": {
+          "package_name": "com.biziboxotp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035867835297-suqk48m4fc37cs9mkfhpkocolur8gnkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqpFRdSjOnECeud4kcG97DKqT_VVYlgAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035867835297-suqk48m4fc37cs9mkfhpkocolur8gnkn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035867835297-ioac46473r6mqt6v6hb9211dtsaclsck.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bizibox.otp.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035867835297:android:53ce70fd21a3a98242d9e0",
+        "android_client_info": {
+          "package_name": "com.biziboxotp.localOffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035867835297-suqk48m4fc37cs9mkfhpkocolur8gnkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqpFRdSjOnECeud4kcG97DKqT_VVYlgAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035867835297-suqk48m4fc37cs9mkfhpkocolur8gnkn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035867835297-ioac46473r6mqt6v6hb9211dtsaclsck.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bizibox.otp.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
